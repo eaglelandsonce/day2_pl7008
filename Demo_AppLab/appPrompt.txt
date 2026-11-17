@@ -1,0 +1,17 @@
+Build a working, responsive app called IT Access Request Portal. Employees should be able to submit requests for software or system access, find their existing requests, and check their status.
+
+Use the attached Excel workbook as the starting point. Inspect its worksheets, column headers, and sample rows. Preserve the existing field names, data types, and status values where possible. Use the mock records to populate the first version so the app is ready to test. Identify any fields you add and explain what they support.
+
+Include these screens and workflows:
+
+My Requests — Show the signed-in employee’s requests, with the most recent first. Let employees search the fields the workbook supports, such as request ID, software or system name, and description. Add a status filter if the workbook includes a status field.
+
+Request Details — Let employees open a request and see what they asked for, when they submitted it, and its current status. Show IT comments or updates when available.
+
+New Request — Build a form using the workbook’s fields for employee submissions. Validate required fields, generate a unique request ID, and assign the initial status. After submission, confirm that the request was saved and show it in My Requests.
+
+IT Queue — Give authorized IT staff a view of all requests and the ability to update their status. Enforce permissions in the app’s data access so employees can only retrieve their own requests.
+
+Use the app’s supported persistent data storage so new requests and status changes survive a page reload. Treat the workbook as the initial data and schema reference. Tell me which data store the app uses and whether it has a live connection to the workbook.
+
+Use a clean, professional layout with readable status labels, keyboard-accessible controls, and a mobile-friendly request list. Build a testable preview that lets me submit a request, find it by search, update its status as IT staff, and verify that the employee sees the updated status after reloading.
